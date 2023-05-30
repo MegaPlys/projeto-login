@@ -2,4 +2,51 @@
 
 /*
     paleta de cores
+    roxo escuro; 3B3085
+    lilás: 6A5A9F
 */
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #3B3085;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 280px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #30339a url(../imagens/universo.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formula {
+    display: block;
+    padding: 10px;
+}
