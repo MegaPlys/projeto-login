@@ -3,11 +3,12 @@
 @media  screen and (min-width: 768px) and (max-width:992px) {
     
     body{
-        background-image: linear-gradient(to top, #9F45B0, #44008b);
+        background-image: linear-gradient(to top, #B5179E, #560BAD);
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 280px;
     }
     section#login > div#imagem {
         float: left;
@@ -29,6 +30,7 @@
 
     section#login{
         width: 900px;
+        height: 380px;
     }
 
     section#login > div#imagem {
@@ -45,6 +47,7 @@
     }
     div#formula > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     
 }
