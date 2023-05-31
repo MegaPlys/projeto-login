@@ -85,7 +85,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #7209B7;
+    
     font-size: 1em;
     width: calc(100%-44px);
     height: 100%;
@@ -93,7 +93,7 @@ div.campo > input {
     border: 1px solid #560BAD;
     padding: 4px;
 
-    transform: translateY(-12px);
+    transform: translateY(-11px);
 }
 div.campo > input:focus-within {
     background-color: white ;
